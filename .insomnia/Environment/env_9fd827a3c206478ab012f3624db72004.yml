@@ -1,0 +1,14 @@
+_id: env_9fd827a3c206478ab012f3624db72004
+type: Environment
+parentId: env_96054d4693752e4298447583bc3b5f6f2100fc90
+modified: 1647731848472
+created: 1647731806139
+name: PRODUCTION
+data:
+  BASE_URL: https://restify-date-fns.herokuapp.com/api
+dataPropertyOrder:
+  "&":
+    - BASE_URL
+color: null
+isPrivate: false
+metaSortKey: 1647731806139
