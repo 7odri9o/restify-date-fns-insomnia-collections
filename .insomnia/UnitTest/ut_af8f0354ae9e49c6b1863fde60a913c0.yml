@@ -1,0 +1,10 @@
+_id: ut_af8f0354ae9e49c6b1863fde60a913c0
+type: UnitTest
+parentId: uts_070bc7ada2e84bce81930d033485f88c
+modified: 1647732695542
+created: 1647732692431
+requestId: req_13709268abd045d38bb435de6cb04c50
+name: ensure FormatDate Controller returns 200 on format success
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);
