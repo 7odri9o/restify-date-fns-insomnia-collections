@@ -1,0 +1,30 @@
+_id: req_13709268abd045d38bb435de6cb04c50
+type: Request
+parentId: fld_629379e5bcc248a68a43e63279d4e022
+modified: 1647726481245
+created: 1647726082794
+url: "{{ _.BASE_URL }}/format"
+name: format yyyy-MM-dd
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"expectedFormat": "{{ _['date-formats']['yyyy-MM-dd'] }}",
+    	"date": "{% now 'custom', 'YYYY-MM-DD' %}"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_57b6a5eac47d443e9dd82572831997f7
+authentication: {}
+metaSortKey: -1647726082795
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
