@@ -1,0 +1,17 @@
+_id: env_96054d4693752e4298447583bc3b5f6f2100fc90
+type: Environment
+parentId: wrk_1f3bce8868314f59b298294de6c10383
+modified: 1647726151158
+created: 1647725971018
+name: Base Environment
+data:
+  date-formats:
+    yyyy-MM-dd: yyyy-MM-dd
+dataPropertyOrder:
+  "&":
+    - date-formats
+  "&~|date-formats":
+    - yyyy-MM-dd
+color: null
+isPrivate: false
+metaSortKey: 1647725971018
